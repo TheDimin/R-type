@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>template code</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\GameObject.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Level.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Entity.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Modules\CollisionModule.cpp">
+      <Filter>Extension\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\CircleCollisionLevel.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Files\CSVParser.cpp">
+      <Filter>Extension\File</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Levels\RTypeLevel.cpp">
+      <Filter>RType\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\TileInfo.cpp">
+      <Filter>RType</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\PlayerShip.cpp">
+      <Filter>RType</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\RedShip.cpp">
+      <Filter>RType\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Module\EnemyModule.cpp">
+      <Filter>RType\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\TileBackground.cpp">
+      <Filter>RType</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Modules\Bullet\Projectile.cpp">
+      <Filter>Extension\Modules\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\FSM\EntityFSM.cpp">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\FSM\FSM.cpp">
+      <Filter>Extension\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Modules\Bullet\BulletModule.cpp">
+      <Filter>Extension\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Modules\ICollision.cpp">
+      <Filter>Extension\Modules\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Modules\Bullet\WeaponDefinition.cpp">
+      <Filter>Extension\Modules\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Module\RespawnModule.cpp">
+      <Filter>RType\Modules\Respawn</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Levels\MainMenu.cpp">
+      <Filter>RType\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\BugEnemy.cpp">
+      <Filter>RType\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\AABB.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\FSM\States\EntityKilledState.cpp">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\EntityWFSM.cpp">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\PStaff.cpp">
+      <Filter>RType\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Modules\Bullet\DefaultWeapon.cpp">
+      <Filter>Extension\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Weapons\BurstWeapon.cpp">
+      <Filter>RType\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="RespawnPoint.cpp">
+      <Filter>RType</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\StaticEnemy.cpp">
+      <Filter>RType\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\SnakeEnemy.cpp">
+      <Filter>RType\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Module\ScoreModule.cpp">
+      <Filter>RType\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatingBurstWeapon.cpp">
+      <Filter>RType\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Levels\GameOver.cpp">
+      <Filter>RType\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\Helpers\Spline.cpp">
+      <Filter>Extension\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\SplineLevel.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\JeffEnemy.cpp">
+      <Filter>RType\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RType\Enemies\FinishGamePoint.cpp" />
+    <ClCompile Include="RType\Module\PScore.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>template code</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="Extension\BackGround.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\GameObject.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Level.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Entity.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\FSM\Event.h">
+      <Filter>Extension\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\FSM\FSM.h">
+      <Filter>Extension\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\FSM\State.h">
+      <Filter>Extension\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\FSM\Transition.h">
+      <Filter>Extension\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\DVector.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\DUniquePtr.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Modules\CollisionModule.h">
+      <Filter>Extension\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\CircleCollisionLevel.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Files\CSVParser.h">
+      <Filter>Extension\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\DString.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Levels\RTypeLevel.h">
+      <Filter>RType\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\TileInfo.h">
+      <Filter>RType</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\PlayerShip.h">
+      <Filter>RType</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\ClassType.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\RedShip.h">
+      <Filter>RType\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Module\EnemyModule.h">
+      <Filter>RType\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\TileBackground.h">
+      <Filter>RType</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Interfaces\ICollision.h">
+      <Filter>Extension\Modules\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Modules\Bullet\Projectile.h">
+      <Filter>Extension\Modules\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Modules\Bullet\WeaponDefinition.h">
+      <Filter>Extension\Modules\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\FSM\EnemyEvents.h">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\FSM\EntityFSM.h">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\FSM\EnemyGuards.h">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Modules\Bullet\BulletModule.h">
+      <Filter>Extension\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\Action.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Modules\CollisionMask.h">
+      <Filter>Extension\Modules\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Module\RespawnModule.h">
+      <Filter>RType\Modules\Respawn</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Levels\MainMenu.h">
+      <Filter>RType\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\BugEnemy.h">
+      <Filter>RType\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\AABB.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\WeaponTypes.h">
+      <Filter>Extension\Modules\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\FSM\States\EntityKilledState.h">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\EntityWFSM.h">
+      <Filter>RType\Enemies\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\PStaff.h">
+      <Filter>RType\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Modules\Bullet\DefaultWeapon.h">
+      <Filter>Extension\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Weapons\BurstWeapon.h">
+      <Filter>RType\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Interfaces\IHealth.h">
+      <Filter>Extension\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Module\RespawnPoint.h">
+      <Filter>RType</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\StaticEnemy.h">
+      <Filter>RType\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\SnakeEnemy.h">
+      <Filter>RType\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Module\ScoreModule.h">
+      <Filter>RType\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Weapons\RotatingBurstWeapon.h">
+      <Filter>RType\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Levels\GameOver.h">
+      <Filter>RType\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\Easings.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\Helpers\Spline.h">
+      <Filter>Extension\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\SplineLevel.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="RType\Enemies\JeffEnemy.h" />
+    <ClInclude Include="RType\Enemies\FinishGamePoint.h" />
+    <ClInclude Include="RType\Module\PScore.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template code">
+      <UniqueIdentifier>{bf32dd6e-4be7-4889-8ac6-49e7ee163c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension">
+      <UniqueIdentifier>{877950fb-ae67-4bf2-b842-ce69f03c6e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\FSM">
+      <UniqueIdentifier>{85017734-7673-4b55-95ea-42a7f61cdbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\General">
+      <UniqueIdentifier>{2bb63a6c-9a9a-4b02-bcfe-9c61ab1fa8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\Modules">
+      <UniqueIdentifier>{932aacc4-0c4b-4a12-b296-769703f1409c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\File">
+      <UniqueIdentifier>{873d6582-7325-4aa2-b9fc-a5f965f9fbcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{2e0a2558-a4ce-4e5a-bead-11a2bb3bf081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType">
+      <UniqueIdentifier>{9e6dafe1-5819-4f89-bc2e-0c22be55a01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Level">
+      <UniqueIdentifier>{e6441892-1f46-4fb8-9f7d-de634af092dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Modules">
+      <UniqueIdentifier>{612a8cc7-0d7d-4645-b026-5fd6ebe1349e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Enemies">
+      <UniqueIdentifier>{54c592e9-a429-4819-9b24-1444e9b265cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\Modules\Bullet">
+      <UniqueIdentifier>{b79ab99d-a20b-4a6b-8e9c-e80cb724cbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Enemies\FSM">
+      <UniqueIdentifier>{cfa77300-eab1-4728-9807-513d429dcc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\Modules\Collision">
+      <UniqueIdentifier>{f19ebb42-a07f-456e-a8fd-5b54d511f416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\Weapons">
+      <UniqueIdentifier>{9b69bed0-f503-4f38-a584-8c6d5920283b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Modules\Respawn">
+      <UniqueIdentifier>{6ee38adc-e019-4a0f-a219-9ac029663fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Weapons">
+      <UniqueIdentifier>{dbfa0daa-dabf-4f99-a9d4-0c839b2c3b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension\Interfaces">
+      <UniqueIdentifier>{9ba24a6c-2c63-4bb2-a680-a4acdc44ecf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RType\Modules\Score">
+      <UniqueIdentifier>{8a29510f-be5a-4adb-a857-cf101f54d944}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt">
+      <Filter>template code</Filter>
+    </Text>
+    <Text Include="CMakeList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <_EmbedManagedResourceFile Include="RType\Enemies\EnemyTypes.h">
+      <Filter>RType\Enemies</Filter>
+    </_EmbedManagedResourceFile>
+  </ItemGroup>
+</Project>

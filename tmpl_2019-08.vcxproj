@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D8FE2186-4BF0-4B89-913F-6C26818E5AC5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>lib;lib\OpenGL;lib\SDL2-2.0.3\include;lib\freeimage\inc</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;advapi32.lib;user32.lib;sdl2.lib;sdl2main.lib;opengl32.lib;freeimage.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalLibraryDirectories>lib\SDL2-2.0.3\lib\x86;lib\OpenGL;lib\freeimage\lib32</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>lib;lib\OpenGL;lib\SDL2-2.0.3\include;lib\freeimage\inc</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;advapi32.lib;user32.lib;sdl2.lib;sdl2main.lib;opengl32.lib;freeimage.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalLibraryDirectories>lib\SDL2-2.0.3\lib\x64;lib\OpenGL;lib\freeimage\lib64</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>lib;lib\OpenGL;lib\SDL2-2.0.3\include;lib\freeimage\inc</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <BrowseInformation>
+      </BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;advapi32.lib;user32.lib;sdl2.lib;sdl2main.lib;opengl32.lib;freeimage.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalLibraryDirectories>lib\SDL2-2.0.3\lib\x86;lib\OpenGL;lib\freeimage\lib32</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>lib;lib\OpenGL;lib\SDL2-2.0.3\include;lib\freeimage\inc</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <BrowseInformation>
+      </BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;advapi32.lib;user32.lib;sdl2.lib;sdl2main.lib;opengl32.lib;freeimage.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+      <AdditionalLibraryDirectories>lib\SDL2-2.0.3\lib\x64;lib\freeimage\lib64</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Demos\AABB.cpp" />
+    <ClCompile Include="Demos\CircleCollisionLevel.cpp" />
+    <ClCompile Include="Demos\SplineLevel.cpp" />
+    <ClCompile Include="Extension\Entity.cpp" />
+    <ClCompile Include="Extension\Files\CSVParser.cpp" />
+    <ClCompile Include="Extension\FSM\FSM.cpp" />
+    <ClCompile Include="Extension\GameObject.cpp" />
+    <ClCompile Include="Extension\Helpers\Spline.cpp" />
+    <ClCompile Include="Extension\Level.cpp" />
+    <ClCompile Include="Extension\Modules\Bullet\Projectile.cpp" />
+    <ClCompile Include="Extension\Modules\Bullet\BulletModule.cpp" />
+    <ClCompile Include="Extension\Modules\Bullet\WeaponDefinition.cpp" />
+    <ClCompile Include="Extension\Modules\Bullet\DefaultWeapon.cpp" />
+    <ClCompile Include="Extension\Modules\CollisionModule.cpp" />
+    <ClCompile Include="Extension\Modules\ICollision.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="RespawnPoint.cpp" />
+    <ClCompile Include="RotatingBurstWeapon.cpp" />
+    <ClCompile Include="RType\Enemies\EntityWFSM.cpp" />
+    <ClCompile Include="RType\Enemies\FinishGamePoint.cpp" />
+    <ClCompile Include="RType\Enemies\FSM\EntityFSM.cpp" />
+    <ClCompile Include="RType\Enemies\FSM\States\EntityKilledState.cpp" />
+    <ClCompile Include="RType\Enemies\JeffEnemy.cpp" />
+    <ClCompile Include="RType\Enemies\PStaff.cpp" />
+    <ClCompile Include="RType\Enemies\RedShip.cpp" />
+    <ClCompile Include="RType\Enemies\BugEnemy.cpp" />
+    <ClCompile Include="RType\Enemies\SnakeEnemy.cpp" />
+    <ClCompile Include="RType\Enemies\StaticEnemy.cpp" />
+    <ClCompile Include="RType\Levels\GameOver.cpp" />
+    <ClCompile Include="RType\Levels\MainMenu.cpp" />
+    <ClCompile Include="RType\Levels\RTypeLevel.cpp" />
+    <ClCompile Include="RType\Module\EnemyModule.cpp" />
+    <ClCompile Include="RType\Module\PScore.cpp" />
+    <ClCompile Include="RType\Module\RespawnModule.cpp" />
+    <ClCompile Include="RType\Module\ScoreModule.cpp" />
+    <ClCompile Include="RType\PlayerShip.cpp" />
+    <ClCompile Include="RType\TileBackground.cpp" />
+    <ClCompile Include="RType\TileInfo.cpp" />
+    <ClCompile Include="RType\Weapons\BurstWeapon.cpp" />
+    <ClCompile Include="surface.cpp" />
+    <ClCompile Include="template.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demos\AABB.h" />
+    <ClInclude Include="Demos\CircleCollisionLevel.h" />
+    <ClInclude Include="Demos\SplineLevel.h" />
+    <ClInclude Include="Extension\BackGround.h" />
+    <ClInclude Include="Extension\Helpers\Spline.h" />
+    <ClInclude Include="Extension\WeaponTypes.h" />
+    <ClInclude Include="Extension\Entity.h" />
+    <ClInclude Include="Extension\Files\CSVParser.h" />
+    <ClInclude Include="Extension\FSM\Event.h" />
+    <ClInclude Include="Extension\FSM\FSM.h" />
+    <ClInclude Include="Extension\FSM\State.h" />
+    <ClInclude Include="Extension\FSM\Transition.h" />
+    <ClInclude Include="Extension\GameObject.h" />
+    <ClInclude Include="Extension\Helpers\Action.h" />
+    <ClInclude Include="Extension\Helpers\ClassType.h" />
+    <ClInclude Include="Extension\Helpers\DString.h" />
+    <ClInclude Include="Extension\Helpers\DUniquePtr.h" />
+    <ClInclude Include="Extension\Helpers\DVector.h" />
+    <ClInclude Include="Extension\Helpers\Easings.h" />
+    <ClInclude Include="Extension\Interfaces\ICollision.h" />
+    <ClInclude Include="Extension\Interfaces\IHealth.h" />
+    <ClInclude Include="Extension\Level.h" />
+    <ClInclude Include="Extension\Modules\Bullet\Projectile.h" />
+    <ClInclude Include="Extension\Modules\Bullet\BulletModule.h" />
+    <ClInclude Include="Extension\Modules\Bullet\WeaponDefinition.h" />
+    <ClInclude Include="Extension\Modules\Bullet\DefaultWeapon.h" />
+    <ClInclude Include="Extension\Modules\CollisionMask.h" />
+    <ClInclude Include="Extension\Modules\CollisionModule.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="precomp.h" />
+    <_EmbedManagedResourceFile Include="RType\Enemies\EnemyTypes.h" />
+    <ClInclude Include="RType\Enemies\EntityWFSM.h" />
+    <ClInclude Include="RType\Enemies\FinishGamePoint.h" />
+    <ClInclude Include="RType\Enemies\FSM\EnemyEvents.h" />
+    <ClInclude Include="RType\Enemies\FSM\EntityFSM.h" />
+    <ClInclude Include="RType\Enemies\FSM\EnemyGuards.h" />
+    <ClInclude Include="RType\Enemies\FSM\States\EntityKilledState.h" />
+    <ClInclude Include="RType\Enemies\JeffEnemy.h" />
+    <ClInclude Include="RType\Enemies\PStaff.h" />
+    <ClInclude Include="RType\Enemies\RedShip.h" />
+    <ClInclude Include="RType\Enemies\BugEnemy.h" />
+    <ClInclude Include="RType\Enemies\SnakeEnemy.h" />
+    <ClInclude Include="RType\Enemies\StaticEnemy.h" />
+    <ClInclude Include="RType\Levels\GameOver.h" />
+    <ClInclude Include="RType\Levels\MainMenu.h" />
+    <ClInclude Include="RType\Levels\RTypeLevel.h" />
+    <ClInclude Include="RType\Module\EnemyModule.h" />
+    <ClInclude Include="RType\Module\PScore.h" />
+    <ClInclude Include="RType\Module\RespawnModule.h" />
+    <ClInclude Include="RType\Module\RespawnPoint.h" />
+    <ClInclude Include="RType\Module\ScoreModule.h" />
+    <ClInclude Include="RType\PlayerShip.h" />
+    <ClInclude Include="RType\TileBackground.h" />
+    <ClInclude Include="RType\TileInfo.h" />
+    <ClInclude Include="RType\Weapons\BurstWeapon.h" />
+    <ClInclude Include="RType\Weapons\RotatingBurstWeapon.h" />
+    <ClInclude Include="surface.h" />
+    <ClInclude Include="template.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeList.txt" />
+    <Text Include="_readme.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

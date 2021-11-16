@@ -1,0 +1,124 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "LevelOne.tmx",
+    "expandedProjectPaths": [
+        "E:/BUAS/Damian210033/Year1/BlockA/RType/Levels/1",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Alle Bestanden (*)",
+    "fileStates": {
+        "": {
+            "scaleInEditor": 4
+        },
+        "C:/Users/dimin/Downloads/R-Type/LevelOne.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -5278.666666666666,
+                "y": -200.66666666666663
+            }
+        },
+        "C:/Users/dimin/Downloads/R-Type/tilemapline32level1.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.25
+        },
+        "C:/Users/dimin/Downloads/level1mapactualtiles.tmx": {
+            "scale": 0.032470703125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2048,
+                "y": 123.18796992481202
+            }
+        },
+        "C:/Users/dimin/Downloads/r-typesheet3.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 8
+        },
+        "C:/Users/dimin/Downloads/tilemaplevel1flipandnormal.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/dimin/Downloads/untitled.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -351,
+                "y": 88
+            }
+        },
+        "C:/Users/dimin/Downloads/untitled.tmx#r-typesheet3": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/Perforce/Damian210033/Year1/BlockA/RType/Levels/2/Tiled/ObjectTypes.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "E:/BUAS/Damian210033/Year1/BlockA/RType/Levels/2/Tiled/ObjectTypes.tsx": {
+            "scaleInDock": 1
+        },
+        "LevelOne.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": -754.6666666666666,
+                "y": 398.66666666666663
+            }
+        },
+        "LevelOne.tmx#tilemapline32level1": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "LevelTwo.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1659,
+                "y": 35
+            }
+        },
+        "LevelTwo.tmx#tilemapline32level1": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "ObjectTypes.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "tilemapline32level1.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "E:/BUAS/Damian210033/Year1/BlockA/RType/Levels/1",
+    "last.imagePath": "E:/BUAS/Damian210033/Year1/BlockA/RType/assets",
+    "map.fixedSize": false,
+    "map.lastUsedExportFilter": "Alle Bestanden (*)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "LevelOne.tmx",
+        "LevelTwo.tmx"
+    ],
+    "project": "RType.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "LevelTwo.tmx",
+        "LevelOne.tmx",
+        "ObjectTypes.tsx",
+        "C:/Users/dimin/Downloads/R-Type/tilemapline32level1.tsx",
+        "C:/Users/dimin/Downloads/R-Type/LevelOne.tmx",
+        "C:/Users/dimin/Downloads/level1mapactualtiles.tmx",
+        "C:/Users/dimin/Downloads/untitled.tmx",
+        "C:/Users/dimin/Downloads/r-typesheet3.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}
